@@ -130,14 +130,9 @@
 		2E0D778F285A8EAD00A45088 /* FastingTracker Watch App */ = {
 			isa = PBXGroup;
 			children = (
-				2E0D77C4285CFAA600A45088 /* CircularTimerView.swift */,
-				2E0D7790285A8EAD00A45088 /* FastingTrackerApp.swift */,
-				2E0D7792285A8EAD00A45088 /* ContentView.swift */,
-				2E0D7794285A8EAE00A45088 /* Assets.xcassets */,
+				2E0D77CE285D0B5A00A45088 /* Views */,
+				2E0D77CF285D0B6500A45088 /* Application */,
 				2E0D7796285A8EAE00A45088 /* Preview Content */,
-				2E0D77C0285C10F500A45088 /* HomeView.swift */,
-				2E0D77C2285C14BF00A45088 /* AddTimerView.swift */,
-				2E0D77C6285D024C00A45088 /* FastEmptyView.swift */,
 				2E0D77CB285D035E00A45088 /* Models */,
 				2E0D77CC285D040E00A45088 /* DataController.swift */,
 			);
@@ -175,6 +170,27 @@
 				2E0D77C8285D035800A45088 /* FastModel.xcdatamodeld */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		2E0D77CE285D0B5A00A45088 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2E0D77C4285CFAA600A45088 /* CircularTimerView.swift */,
+				2E0D77C0285C10F500A45088 /* HomeView.swift */,
+				2E0D77C2285C14BF00A45088 /* AddTimerView.swift */,
+				2E0D77C6285D024C00A45088 /* FastEmptyView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2E0D77CF285D0B6500A45088 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				2E0D7790285A8EAD00A45088 /* FastingTrackerApp.swift */,
+				2E0D7792285A8EAD00A45088 /* ContentView.swift */,
+				2E0D7794285A8EAE00A45088 /* Assets.xcassets */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
